@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Kami - PT. Prima Graha</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <div class="brand-wrapper">
+                <img src="Logo.png" alt="Logo" class="logo">
+                <div class="title-wrapper">
+                    <h1 class="company-name">PT. Prima Graha</h1>
+                    <h2 class="company-subtitle">Real Estate</h2>
+                </div>
+            </div>
+            
+            
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+        
+
+<!-- Tambahkan setelah section vision-mission -->
+<section class="contact-section">
+    <div class="contact-container">
+        <h2 class="section-title">Hubungi Kami</h2>
+
+        <div class="contact-wrapper">
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nama Lengkap</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Telepon/WhatsApp</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Butuh info tentang</label>
+                    <select id="subject" name="subject">
+                        <option value="Unit Tersedia">Unit Tersedia</option>
+                        <option value="Proses KPR">Proses KPR</option>
+                        <option value="Jadwal Survey">Jadwal Survey</option>
+                        <option value="Lainnya">Lainnya</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Pesan</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Kirim Pesan</button>
+                <p class="confirmation-message">Terima kasih, kami akan segera menghubungi Anda.</p>
+            </form>
+
+            <!-- Detail Kontak -->
+            <div class="contact-info">
+                <div class="contact-details">
+                    <h3>📌 Kantor Pusat</h3>
+                    <p>Sokong, Kec. Tanjung, Kabupaten Lombok Utara, Nusa Tenggara Barat</p>
+            
+                    <h3>📞 Kontak</h3>
+                    <p><a href="tel:+6285936724812">085936724812</a></p>
+                    <p><a href="https://wa.me/6287866165102" target="_blank">WhatsApp: 087866165102</a></p>
+                    <p><a href="mailto:info@primagraha.co.id">info@primagraha.co.id</a></p>
+            
+                    <h3>🕒 Jam Operasional</h3>
+                    <p>Senin–Jumat: 08.00–17.00</p>
+                    <p>Sabtu: 09.00–13.00</p>
+                    <p>Minggu: Libur</p>
+                </div>
+
+                <!-- Sosial Media & Newsletter -->
+                <div class="social-newsletter">
+                    <div class="social-media">
+                        <h3>🌐 Ikuti Kami</h3>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/primagraha_tanjungregency?igsh=MTVrY3hra2JkcjN0Nw=="><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/DediMulyadi1971/?locale=id_ID"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="newsletter">
+                        <h3>📩 Berlangganan Newsletter</h3>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Masukkan email Anda" required>
+                            <button type="submit">Daftar</button>
+                        </form>
+                        <p class="newsletter-desc">Dapatkan update proyek & promo subsidi terbaru.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
